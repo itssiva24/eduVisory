@@ -1,0 +1,38 @@
+.full-layout {
+	height: 100%;
+}
+.sidebar {
+	padding-top: 25px;
+}
+.ant-layout-sider-zero-width-trigger {
+	top: 0;
+}
+.logo {
+	padding: 16px 16px 16px 24px;
+	color: #fff;
+	font-size: large;
+}
+#components-layout-demo-responsive .logo {
+	height: 32px;
+	background: rgba(255, 255, 255, 0.2);
+	margin: 16px;
+}
+.ant-page-header-heading-title {
+	margin-left: 16px;
+}
+.site-layout-sub-header-background {
+	background: rgba(255, 255, 255, 0.2);
+}
+.site-layout-background {
+	background: #fff;
+}
+/* tile uploaded pictures */
+.comment-action {
+	padding-left: 8px;
+	cursor: 'auto';
+}
+
+[class*='-col-rtl'] .comment-action {
+	padding-right: 8px;
+	padding-left: 0;
+}
